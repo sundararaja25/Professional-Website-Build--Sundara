@@ -23,20 +23,19 @@ def hero_section() -> rx.Component:
                     rx.el.div(
                         rx.el.a(
                             rx.el.button(
-                                "View My Work",
+                                "Explore My Services",
                                 rx.icon("arrow-down", class_name="ml-2 h-5 w-5"),
                                 class_name="px-8 py-3 bg-orange-500 text-white font-semibold rounded-lg shadow-md hover:bg-orange-600 transition-all duration-200 transform hover:scale-105 flex items-center",
                             ),
-                            href="#projects",
+                            href="#about",
                         ),
                         rx.el.a(
                             rx.el.button(
-                                "Download Resume",
-                                rx.icon("download", class_name="ml-2 h-5 w-5"),
+                                "Book a Consultation",
+                                rx.icon("calendar-plus", class_name="ml-2 h-5 w-5"),
                                 class_name="px-8 py-3 bg-white text-gray-700 font-semibold rounded-lg border border-gray-300 shadow-sm hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 transform hover:scale-105 flex items-center",
                             ),
-                            href=PortfolioState.resume_path,
-                            download=True,
+                            href="#contact",
                         ),
                         class_name="mt-8 flex flex-col sm:flex-row gap-4",
                     ),

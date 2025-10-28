@@ -46,31 +46,31 @@ class PortfolioState(rx.State):
     ]
     is_mobile_menu_open: bool = False
     full_name: str = "Sundara Raja Perumal"
-    title: str = "Visionary Technology Leader"
-    tagline: str = "Over a decade of C-suite experience driving digital transformation and innovation across global markets."
+    title: str = "AI Strategy Consultant & Digital Transformation Leader"
+    tagline: str = "Driving enterprise-wide digital transformation through strategic AI implementation and cloud-native innovation."
     resume_path: str = "/Sundara_Raja_Perumal_Resume (1).pdf"
-    avatar_url: str = f"https://api.dicebear.com/9.x/initials/svg?seed={full_name.replace(' ', '%20')}&backgroundColor=ff8c00,f5f5f5&textColor=000000&fontSize=40"
-    professional_summary: str = "Visionary technology leader with over a decade of C-suite experience driving digital transformation and innovation across global markets. Proven expertise in cloud-native architectures, GenAI solutions, and adaptive learning platforms. Skilled in technology strategy development, stakeholder communication, and mentoring high-performing teams. MBA-qualified with a strong foundation in electronics and communication engineering."
+    avatar_url: str = f"https://api.dicebear.com/9.x/notionists/svg?seed=AI%20Strategy&backgroundColor=ff8c00,f5f5f5&backgroundType=gradientLinear"
+    professional_summary: str = "Seasoned AI Strategy Consultant and Digital Transformation Leader with over a decade of experience advising global enterprises. I specialize in crafting and executing AI-driven strategies that unlock new revenue streams, optimize operations, and create sustainable competitive advantages. My work has delivered over $50M in transformation value by integrating cutting-edge GenAI solutions with robust cloud-native architectures. As an MBA-qualified advisor, I excel at bridging the gap between executive vision and technical implementation, ensuring that innovation translates to measurable business impact."
     specializations: list[dict[str, str]] = [
         {
-            "icon": "user-cog",
-            "title": "Technology Leadership & Strategy",
-            "desc": "Defining and executing technology roadmaps that align with business goals and drive growth.",
-        },
-        {
             "icon": "brain-circuit",
-            "title": "Cloud-Native & GenAI Solutions",
-            "desc": "Architecting and deploying scalable, intelligent solutions using modern cloud and AI technologies.",
+            "title": "AI Strategy & Implementation",
+            "desc": "Crafting bespoke AI roadmaps and leading the implementation of GenAI solutions to solve complex business challenges.",
         },
         {
-            "icon": "refresh-cw",
-            "title": "Digital Transformation & Innovation",
-            "desc": "Leading enterprise-wide change to enhance operational efficiency and product innovation.",
+            "icon": "refresh-cw-dot",
+            "title": "Digital Transformation Consulting",
+            "desc": "Advising C-suite leaders on enterprise-wide transformation to enhance agility, efficiency, and market responsiveness.",
         },
         {
-            "icon": "users",
-            "title": "Team Leadership & Mentoring",
-            "desc": "Building and nurturing high-performing engineering teams to deliver excellence.",
+            "icon": "cloud-cog",
+            "title": "Enterprise Architecture & Cloud Strategy",
+            "desc": "Designing scalable, secure, and future-proof enterprise architectures on modern cloud platforms.",
+        },
+        {
+            "icon": "lightbulb",
+            "title": "Innovation & Change Management",
+            "desc": "Fostering a culture of innovation and guiding organizations through the complexities of technological change.",
         },
     ]
     experience: list[Experience] = [

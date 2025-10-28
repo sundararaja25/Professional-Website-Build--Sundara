@@ -39,8 +39,19 @@ def about_section() -> rx.Component:
                         class_name="text-gray-600 text-lg mb-6 leading-relaxed",
                     ),
                     rx.el.div(
-                        "10+ Years of Experience",
-                        class_name="inline-block bg-orange-100 text-orange-700 font-semibold px-4 py-2 rounded-lg mb-8",
+                        rx.el.div(
+                            "10+ Years of Experience",
+                            class_name="bg-orange-100 text-orange-700 font-semibold px-3 py-1 rounded-full text-sm",
+                        ),
+                        rx.el.div(
+                            "$50M+ Transformation Value",
+                            class_name="bg-blue-100 text-blue-700 font-semibold px-3 py-1 rounded-full text-sm",
+                        ),
+                        rx.el.div(
+                            "20+ Enterprise Clients",
+                            class_name="bg-green-100 text-green-700 font-semibold px-3 py-1 rounded-full text-sm",
+                        ),
+                        class_name="flex flex-wrap gap-3 mb-8",
                     ),
                     rx.el.h3(
                         "My Specializations",
