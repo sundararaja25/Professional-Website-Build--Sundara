@@ -27,8 +27,8 @@ def about_section() -> rx.Component:
             rx.el.div(
                 rx.el.div(
                     rx.el.image(
-                        src="/placeholder.svg",
-                        alt="Professional Headshot",
+                        src=PortfolioState.avatar_url,
+                        alt="Professional Headshot of Sundara Raja Perumal",
                         class_name="rounded-xl object-cover w-full h-full shadow-lg",
                     ),
                     class_name="w-full md:w-1/3",

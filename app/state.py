@@ -49,7 +49,7 @@ class PortfolioState(rx.State):
     title: str = "AI Strategy Consultant & Digital Transformation Leader"
     tagline: str = "Driving enterprise-wide digital transformation through strategic AI implementation and cloud-native innovation."
     resume_path: str = "/Sundara_Raja_Perumal_Resume (1).pdf"
-    avatar_url: str = f"https://api.dicebear.com/9.x/notionists/svg?seed=AI%20Strategy&backgroundColor=ff8c00,f5f5f5&backgroundType=gradientLinear"
+    avatar_url: str = "/Sundara_Raja_Perumal_Photo.jpg"
     professional_summary: str = "Seasoned AI Strategy Consultant and Digital Transformation Leader with over a decade of experience advising global enterprises. I specialize in crafting and executing AI-driven strategies that unlock new revenue streams, optimize operations, and create sustainable competitive advantages. My work has delivered over $50M in transformation value by integrating cutting-edge GenAI solutions with robust cloud-native architectures. As an MBA-qualified advisor, I excel at bridging the gap between executive vision and technical implementation, ensuring that innovation translates to measurable business impact."
     specializations: list[dict[str, str]] = [
         {
